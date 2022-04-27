@@ -1,0 +1,13 @@
+validate-----Validates if the project is correct and if all necessary information is available.
+
+compile-------Source code compilation is done in this phase.
+
+test-------Tests the compiled source code suitable for testing framework.
+
+package-----This phase creates the JAR/WAR package as mentioned in the packaging in POM.xml.
+
+
+
+install-------This phase installs the package in local/remote maven repository.
+
+deploy------------Copies the final package to the remote repository.
